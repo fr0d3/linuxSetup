@@ -1,0 +1,24 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = JetBrainsMono Nerd Font 11
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      size = 900, 400
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
